@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        font-family: "Lato", sans-serif;
+        background-image: url("/assets/coverimg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+  
+
+/* for navbar1 */
+.navbar1
+{
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.navbar1 p{
+    padding-left: 16px;
+    font-size: 14px; 
+    color: rgb(3, 3, 133);
+}
+
+.rightpart{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 600px;
+}
+.rightpart a{
+    text-decoration: none;
+    color: rgb(19, 34, 247);
+}
+.rightpart a:hover{
+    color: rgb(253, 45, 45);
+}
+
+.callicon{
+    width: 18px;
+    padding-left: 50px;  
+}
+/* end of navbar1 */
+
+
+/* starting of navbar2 */
+
+.navbar2{
+    background-color: rgba(65, 132, 170, 0.733);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 12px 2px;
+}
+.logo{
+    width: 120px;
+    padding: 4px; 
+    padding-left: 50px;
+}
+.nav2div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    list-style-type: none;
+}
+.dropdown span:hover{
+    color: white;
+}
+.nav2div a{
+    text-decoration: none;
+    color: black;
+}
+.nav2div a:hover{
+    color: white;
+}
+
+
+/* .rightmost{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.rightmost img:hover{
+    scale: 1.2;
+} */
+
+
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.drop-content{
+    display: none;
+    position: absolute;
+    width: 140px;
+    /* box-shadow: 0px 6px 12px 0px; */
+    z-index: 1;
+    background-color:rgba(212, 212, 212, 0.733);
+    padding: 16px;
+}
+.dropdown:hover .drop-content {
+  /* color: #790b6a; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dropdown .drop-content:hover{
+  color:#790b6a;
+}
+
+
+  /* for menu in nav bar(starting) */
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #eeeeee;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #030303;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #a107af;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 10px;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: none;
+  }
+  
+  .openbtn:hover {
+    color: #ccc;
+  }
+  
+  .openbtn img {
+    width: 20px; /* Resize the menu icon to 20px */
+    height: 20px;
+  }
+  
+  
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  /* ending of menu(navbar) */
+
+
+/* for rectngular box */
+.rect_box{
+    width: 400px;
+	height: 200px;
+	transform: skew(-10deg);
+	background: #064a81;
+    margin-top: 300px;
+    margin-left: 550px;
+    border-radius: 2cap;
+    box-shadow: 4px 0px 16px 2px;
+}
+.welcome{
+    padding-top: 10px;
+    padding-left: 24px;
+    font-size: 2pc;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.rect_box p{
+    padding-left: 24px;
+    padding-right: 12px;
+    padding-top: 12px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* for button inside the rectangular box */
+  .button {
+    /* Shared button styles */
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button1 {
+    /* Style the first button */
+    background-color: #790b6a;
+    color: white;
+    margin-right: -20px; /* overlap the second button by 20px */
+  }
+
+  .button1:hover{
+    background-color: #ffffff;
+    color: purple;
+  }
+  
+  .button2 {
+    /* Style the second button */
+    background-color: rgb(13, 110, 167);
+    position: relative;
+    left: -4px; /* overlap the first button by 20px */
+  }
+  
+  /* .button:hover{
+    position: relative;
+    left: -40px;
+  } */
+
+ 
+

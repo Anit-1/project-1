@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Texas International College</title>
+    <link rel="icon" href="\assets\icon.png">
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+</head>
+<body>
+
+    <!-- starting of the top nav bar -->
+    <div class="navbar1">
+        <img class="callicon" src="assets/phone.png" alt="phone icon">
+        <p>01-4590670</p>
+        <div class="rightpart">
+            <li><a href="#">IQAC</a></li>
+            <li><a href="#">Texas MIS</a></li>
+            <li><a href="#">News and Media</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Apply Online</a></li>
+        </div>
+    </div>
+    <!-- closing of top navbar -->
+
+
+<!-- starting of navbar2 -->
+<div class="navbar2">
+    <img class="logo" src="assets/Texas logo.png" alt="Texas Logo">
+    <div class="nav2div">
+        <div><span>HOME</span></div>
+        <div class="dropdown">
+             <span>ABOUT US</span>
+            <div class="drop-content">
+                <li><a href="#">Management Team</a></li>
+                <li><a href="#">Administration Team</a></li>
+                <li><a href="#">Faculty Member</a></li>
+            </div>
+        </div>
+
+
+        <div class="dropdown">
+            <span>SERVICES</span>
+            <div class="drop-content">
+                <li><a href="#">Social Service</a></li>
+                <li><a href="#">Tuition Class</a></li>
+                <li><a href="#">Professional Class</a></li>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <span>CONTACT US</span>
+            <div class="drop-content">
+                <li><a href="#">HOD</a></li>
+                <li><a href="#">Administration</a></li>
+                <li><a href="#">Department</a></li>
+            </div>
+        </div>
+    </div>
+
+    <div class="rightmost">
+        <img src="assets/search.png" alt="Search icon">
+        <span class="openbtn" onclick="openNav()">
+        <img src="menu.png" alt="Menu" />
+    </span>
+        <!-- <img src="assets/menu.png" alt="Hamburger icon"> -->
+         
+    </div>
+      
+</div>
+<!-- closing of navbar2 -->
+
+
+
+
+
+    <!-- menu icon in navbar -->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">Home</a>
+  <a href="#">About Us</a>
+  <a href="#">Training</a>
+  <a href="#">Success Story</a>
+  <a href="#">Legal Documents</a>
+</div> 
+
+<!-- closing of menu navbar -->
+
+
+
+<!-- rectangular box -->
+<div class="rect_box">
+    <p class="welcome">WELCOME TO TEXAS</p>
+    <p>We are excited to welcome the students to our academy. Our goal is to support all students academically and socially. We will make every effort.</p>
+    <span class="test">
+    <button class="button button1">Read More</button>
+    <button class="button button2">-></button>
+</span>
+</div>
+
+
+
+<!-- js section start -->
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   <!-- end of js section -->
+
+
+</body>
+</html>
