@@ -15,7 +15,7 @@ body {
 /* for navbar1 */
 .navbar1
 {
-    background-color: rgb(238, 237, 237);
+    background-color: rgb(136, 7, 93);
     display: flex;
     align-items: center;
     padding: 12px;
@@ -24,7 +24,7 @@ body {
 .navbar1 p{
     padding-left: 16px;
     font-size: 14px; 
-    color: rgb(3, 3, 133);
+    color: rgb(244, 244, 245);
 }
 
 .rightpart{
@@ -37,10 +37,10 @@ body {
 }
 .rightpart a{
     text-decoration: none;
-    color: rgb(19, 34, 247);
+    color: rgb(247, 247, 248);
 }
 .rightpart a:hover{
-    color: rgb(253, 45, 45);
+    color: rgb(210, 252, 23);
 }
 
 .callicon{
@@ -54,11 +54,22 @@ body {
 
 .navbar2{
     background-color: rgba(65, 132, 170, 0.733);
+    color: rgb(25, 0, 117);
+    font-weight: bolder;
     display:flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0px 2px 12px 2px;
 }
+
+.navbar2 .nav2div .dropdown .drop-content li{
+  font-weight: 600;
+}
+
+.navbar2 .nav2div .dropdown .drop-content li a:hover{
+  color:#5c0050;
+}
+
 .logo{
     width: 120px;
     padding: 4px; 
@@ -83,19 +94,6 @@ body {
     color: white;
 }
 
-
-/* .rightmost{
-    display: flex;
-    gap: 30px;
-    padding: 20px;
-}
-.rightmost img:hover{
-    scale: 1.2;
-} */
-
-
-
-
 .dropdown{
     position: relative;
     display: inline-block;
@@ -118,6 +116,15 @@ body {
 
 .dropdown .drop-content:hover{
   color:#790b6a;
+}
+
+.rightmost{
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+.rightmost img:hover{
+  scale: 1.8;
 }
 
 
@@ -186,6 +193,15 @@ body {
   }
   /* ending of menu(navbar) */
 
+/* for hero section including image in the bg */
+
+/* .hero{
+  background-image: url("/assets/coverimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
 
 /* for rectngular box */
 .rect_box{
@@ -194,7 +210,7 @@ body {
 	transform: skew(-10deg);
 	background: #064a81;
     margin-top: 300px;
-    margin-left: 550px;
+    margin-left: 760px;
     border-radius: 2cap;
     box-shadow: 4px 0px 16px 2px;
 }
@@ -220,7 +236,8 @@ body {
     background-color: #4CAF50;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    margin: 5px 10px;
+    padding: 15px 10px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
@@ -231,25 +248,23 @@ body {
     /* Style the first button */
     background-color: #790b6a;
     color: white;
-    margin-right: -20px; /* overlap the second button by 20px */
+    margin-right: -5px; /* overlap the second button by 20px */
   }
 
   .button1:hover{
+    scale: 0.9`;
     background-color: #ffffff;
     color: purple;
   }
   
   .button2 {
     /* Style the second button */
+    padding: 10px 14px;
     background-color: rgb(13, 110, 167);
     position: relative;
-    left: -4px; /* overlap the first button by 20px */
+    left: -15px; /* overlap the first button by 20px */
   }
   
-  /* .button:hover{
-    position: relative;
-    left: -40px;
-  } */
 
  
 
